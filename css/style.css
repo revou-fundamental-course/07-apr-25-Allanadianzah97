@@ -1,0 +1,53 @@
+body {
+    font-family: math;
+    background-color: #cea2bc4a;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 8px;
+}
+
+hr {
+    border-width: 10px;
+}
+
+.banner-img {
+    height: 400px;
+    background-image: url(https://picsum.photos/990);
+    background-size: cover;
+    background-position: center;
+}
+
+main > section {
+    height: 800px;
+}
+
+.section-content {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
