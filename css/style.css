@@ -1,6 +1,6 @@
 body {
     font-family: math;
-    background-color: #cea2bc4a;
+    background-color: #f5deeb4a;
 }
 
 .main-header {
@@ -9,9 +9,9 @@ body {
 }
 
 .main-logo {
-    height: 50px;
-    width: 50px;
-    background-image: url(https://picsum.photos/200/300);
+    height: 60px;
+    width: 60px;
+    background-image: url(../logo.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -19,23 +19,25 @@ body {
 
 nav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 3rem;
 }
 
 nav>a {
     text-decoration: none;
     color: black;
-    border: 1px solid;
     padding: 8px;
 }
 
 hr {
-    border-width: 10px;
+    border-width: 5px;
+    border-color: pink;
 }
 
 .banner-img {
     height: 400px;
-    background-image: url(https://picsum.photos/990);
+    background-image: url(../various.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -50,4 +52,187 @@ main > section {
 
 footer {
     text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf5f9;
+}
+
+header.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.section-content {
+    margin-top: 10px;
+}
+
+#message-us-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+#message-us-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.message-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+form {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="radio"] {
+    margin-right: 8px;
+}
+
+.gender-options {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#display-message {
+    flex: 1 1 45%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.home-pink {
+    background-color: #fce4ec; /* Warna latar belakang pink lembut */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.home-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-pink h2 {
+    font-size: 2.5em;
+    color: #df74a2; /* Warna judul pink yang lebih cerah */
+    margin-bottom: 20px;
+}
+
+.home-pink .banner-img {
+    height: 400px;
+    background-image: url('../various.jpg'); /* Ganti dengan path gambar banner Anda */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.home-pink .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-pink .section-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.home-pink .lihat-produk-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #df74a2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.home-pink .lihat-produk-btn:hover {
+    background-color: #df74a2ac;
+}
+
+.profile-circles {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.profile-circle {
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #e91e63; /* Warna lingkaran */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-circle p {
+    font-size: 1.2em;
+    color: #333;
 }

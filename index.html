@@ -4,8 +4,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allan Company</title>
+    <title>Various BDG - Aksesoris Manik-Manik Cantik</title>
 
     <!--CSS External-->
     <link rel="stylesheet" href="css\style.css">
@@ -31,18 +32,21 @@
     <!--main content-->
     <main>
         <!--Home Section-->
-        <section id="home-section">
-            <header>
-                <h2>Hi Everyone, Welcome to my website</h2>
-            </header>
-
-            <!--Banner Content*-->
-            <div class="banner-img"></div>
-
-            <!--Banner Text-->
-            <article class="section-content">
-                <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
-            </article>
+        <section id="home-section" class="home-pink">
+            <div class="home-content">
+                <div class="banner-img"></div>
+                <article class="section-content">
+                    <h2>VARIOUS BDG</h2>
+                    <p>
+                        Selamat datang di Various BDG, tempatnya aksesoris manik-manik unik dan penuh gaya! 
+                        Kami menghadirkan koleksi aksesoris yang dibuat dengan cinta, mulai dari gelang, kalung, 
+                        cincin, hingga aksesoris lainnya yang bisa membuat penampilanmu semakin istimewa. 
+                        Setiap produk kami dirancang untuk memberikan sentuhan personal dan mengekspresikan 
+                        gaya unikmu. Temukan aksesoris impianmu dan jadikan setiap momen lebih berkesan bersama Various BDG!
+                    </p>
+                    <a href="#produk-kami" class="lihat-produk-btn">Lihat Koleksi Kami</a>
+                </article>
+            </div>
         </section>
 
         <hr/>
@@ -52,10 +56,22 @@
             <header>
                 <h2>Our Profile</h2>
             </header>
-
-            <!--Our Profile Text-->
+            <div class="profile-circles">
+                <div class="profile-circle">
+                    <div class="circle"></div>
+                    <p>Jakarta</p>
+                </div>
+                <div class="profile-circle">
+                    <div class="circle"></div>
+                    <p>Bandung</p>
+                </div>
+                <div class="profile-circle">
+                    <div class="circle-profile"></div>
+                    <p>Surabaya</p>
+                </div>
+            </div>
             <article class="section-content">
-                <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
+                <p>Various BDG adalah toko online aksesoris manik-manik yang melayani pelanggan di berbagai kota besar di Indonesia. Kami memiliki kantor perwakilan di Jakarta, Bandung, dan Surabaya untuk memudahkan pengiriman dan pelayanan kepada pelanggan.</p>
             </article>
         </section>
 
@@ -77,13 +93,40 @@
 
         <!--Message Us Section-->
         <section id="message-us-section">
-            <header>
-                <h2>Message Us</h2>
-            </header>
+            <h2>Message Us</h2>
+        
+            <div class="message-container">
+                <!-- Form -->
+                <form id="message-form">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" placeholder="Nama" required>
+        
+                    <label for="tanggal-lahir">Tanggal Lahir:</label>
+                    <input type="date" id="tanggal-lahir" name="tanggal-lahir" required>
+        
+                    <label>Jenis Kelamin:</label>
+                    <div class="gender-options">
+                        <label><input type="radio" name="gender" value="Laki - Laki" checked> Laki-Laki</label>
+                        <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+                    </div>
+        
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" placeholder="Pesan" required></textarea>
+        
+                    <input type="submit" value="Submit">
+                </form>
+        
+                <!-- Display Box -->
+                <div id="display-message">
+                    <p><em>Isi form dan klik submit untuk melihat hasilnya di sini.</em></p>
+                </div>
+            </div>
+        </section>
+        
 
             <!--Message Us Text-->
             <article class="section-content">
-                <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
+                <p></p>
             </article>
         </section>
     </main>
